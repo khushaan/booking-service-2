@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: booking-service
+
+server:
+  port: 8084
+
+
+
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8307/eureka/
+  instance:
+    hostname: localhost
